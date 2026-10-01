@@ -12,11 +12,11 @@ The following examples illustrate how output smoothing changes the residual pass
   <img src="figures/local_smoothing_effect_1d.png" width="45%">
 </p>
 
-- **(a)** shows the learning target \(R_2^s\) for Grade 3 and the selected local interval.
-- **(b)** compares the learning target \(R_2^s\), the learned Grade-3 output \(f_3\), and its smoothed version \(S_3 f_3\) within the selected interval.
-- **(c)** compares the residual formed without smoothing, \(R_2^s-f_3\), with the smoothed residual, \(R_2^s-S_3f_3\).
+- **(a)** shows the learning target $R_2^s$ for Grade 3 and the selected local interval.
+- **(b)** compares the learning target $R_2^s$, the learned Grade-3 output $f_3$, and its smoothed version $S_3f_3$ within the selected interval.
+- **(c)** compares the residual formed without smoothing, $R_2^s-f_3$, with the smoothed residual, $R_2^s-S_3f_3$.
 
-Although \(f_3\) and \(S_3f_3\) are nearly indistinguishable locally, smoothing substantially reduces the rapid oscillations in the residual passed to the next grade.
+Although $f_3$ and $S_3f_3$ are nearly indistinguishable locally, smoothing substantially reduces the rapid oscillations in the residual passed to the next grade.
 
 ### Two-Dimensional Example
 
@@ -24,12 +24,12 @@ Although \(f_3\) and \(S_3f_3\) are nearly indistinguishable locally, smoothing 
   <img src="figures/local_smoothing_effect_2d.png" width="55%">
 </p>
 
-- **(a)** shows the learning target \(R_1^s\) for Grade 2 and the selected local region.
-- **(b)** shows the learned Grade-2 output \(f_2\) in the selected region.
-- **(c)** shows the smoothed output \(S_2f_2\).
-- **(d)** shows the corresponding learning target \(R_1^s\).
-- **(e)** shows the residual formed without smoothing, \(R_1^s-f_2\).
-- **(f)** shows the smoothed residual, \(R_1^s-S_2f_2\).
+- **(a)** shows the learning target $R_1^s$ for Grade 2 and the selected local region.
+- **(b)** shows the learned Grade-2 output $f_2$ in the selected region.
+- **(c)** shows the smoothed output $S_2f_2$.
+- **(d)** shows the corresponding learning target $R_1^s$.
+- **(e)** shows the residual formed without smoothing, $R_1^s-f_2$.
+- **(f)** shows the smoothed residual, $R_1^s-S_2f_2$.
 
 The raw and smoothed Grade-2 outputs have very similar local structures, whereas the residual obtained after smoothing has a more coherent local structure.
 
