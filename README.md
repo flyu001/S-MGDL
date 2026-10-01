@@ -14,6 +14,16 @@ The folder `Fixed Grade Function Approximation/` contains the fixed-grade synthe
 - Fixed-grade 2D function approximation
 - Fixed-grade 3D function approximation
 
+### Adaptive-Grade Function Approximation
+
+The folder `Adaptive Grade Function Approximation/` contains the adaptive-grade synthetic function approximation experiments:
+
+- Adaptive-grade 1D function approximation
+- Adaptive-grade 2D function approximation
+- Adaptive-grade 3D function approximation
+
+In these experiments, the multigrade model is trained sequentially, and the number of accepted grades is determined adaptively using the validation error.
+
 ### Image Denoising
 
 The folder `Image Denoising/` contains the image-denoising experiments.
