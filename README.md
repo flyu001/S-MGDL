@@ -9,7 +9,7 @@ The following examples illustrate how output smoothing changes the residual pass
 ### One-Dimensional Example
 
 <p align="center">
-  <img src="figures/local_smoothing_effect_1d.png" width="60%">
+  <img src="figures/local_smoothing_effect_1d.png" width="45%">
 </p>
 
 - **(a)** shows the learning target \(R_2^s\) for Grade 3 and the selected local interval.
@@ -21,7 +21,7 @@ Although \(f_3\) and \(S_3f_3\) are nearly indistinguishable locally, smoothing 
 ### Two-Dimensional Example
 
 <p align="center">
-  <img src="figures/local_smoothing_effect_2d.png" width="70%">
+  <img src="figures/local_smoothing_effect_2d.png" width="55%">
 </p>
 
 - **(a)** shows the learning target \(R_1^s\) for Grade 2 and the selected local region.
